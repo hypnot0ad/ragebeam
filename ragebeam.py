@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+"""
+Usage:
+  ragebeam.py <user_name:password> [windows | linux | solaris | freebds | macos | aix ] <destination_folder>
+"""
+
 from docopt import docopt
 import sys
 import requests
